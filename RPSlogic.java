@@ -13,7 +13,7 @@ import java.util.Random;
  */
 public class RPSlogic {
     private Random random;
-    private int drawnNumber; // Draw random number 1-3 to decide computers move 
+    private int drawnNumber; // Draw random number 1-3 to decide computer's move 
     
     public RPSlogic() {
         this.random = new Random();
@@ -27,6 +27,7 @@ public class RPSlogic {
     public int getDraw() {
         return drawnNumber;
     }
+    
     
     // use this method to reduce repetition in ClickListener
     public String compPlays() {
